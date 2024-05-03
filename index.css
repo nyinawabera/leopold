@@ -1,0 +1,102 @@
+/*change background color*/
+html{
+    background-color: navy;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+  }
+  
+  nav ul li {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  nav ul li a {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: pink;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color:black;
+    font-family: monospace;
+  }
+.picture{
+    display: flex;
+    justify-content: center;
+    background: url("FB_IMG_16322269930023556.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+     background-position: 50%;
+     height: 400px;
+}
+figure{
+    
+    position: relative;
+}
+.ddd{
+    position: absolute;
+    right: -70px;
+    top: 209px;
+    border-radius: 100%;
+    height: 175px;
+    width: 145px;
+}
+
+.dudu{
+  position: relative;
+  left: 40%;
+  color: orange;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+.mmm{
+    display: flex;
+    justify-content: space-around;  
+}
+.well{
+    display: flex;
+    justify-content: space-around;
+  }
+    .ppp{
+        position: relative;
+        top: 70px;
+        color: yellow;
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace; 
+        font-style: italic;
+        font-weight: bold;
+    }
+    .killer{
+     position: relative;
+     left: 50%;
+     color:yellow;
+     font-size: 18px;
+     font-family: 'Courier New', Courier, monospace;
+     font-style: italic;
+    }
+    .nelly{
+      position: relative;
+      left: 27%;
+      top: 130px;
+      color: white;
+      font-size: xx-large;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      font-style: italic; 
+    }
+    .navy{
+      display: flex;
+      justify-content: flex-end;
+      font-weight: bolder;
+    }
